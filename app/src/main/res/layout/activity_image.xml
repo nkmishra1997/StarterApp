@@ -1,44 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
-    <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:contentDescription="@string/app_name"
-            android:id="@+id/imageView"
-            app:srcCompat="@drawable/zomato"
-            android:padding="5dp"
-    />
-    <TextView
-            android:text="Loriam ipsom dolor sit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/heading"
-            android:layout_toEndOf="@id/imageView"
-            android:layout_toRightOf="@id/imageView"
-            android:textStyle="bold"
-            android:padding="5dp"
-    />
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Lorem Ipsum Dioums Siour Helping the person on the left"
-            android:id="@+id/details"
-            android:layout_below="@id/heading"
-            android:layout_toEndOf="@id/imageView"
-            android:layout_toRightOf="@id/imageView"
-            android:padding="5dp"
-    />
+                xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
     <ImageView
             android:layout_width="match_parent"
             android:layout_height="400dp"
             android:id="@+id/backImage"
             android:src="@drawable/food"
             android:scaleType="fitXY"
-            android:layout_alignParentBottom="true"
             android:layout_margin="20dp"
     />
     <TextView
